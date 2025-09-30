@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/Satyajitp2509/webapp.git'
+                git branch: 'master', url: 'https://github.com/Satyajitp2509/web_app.git'
             }
         }
 
